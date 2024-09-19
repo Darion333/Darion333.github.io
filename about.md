@@ -4,20 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the blog site for the research lab of Dr. Fang Liu at Emory University Department of Chemistry. Our lab website: [https://flgroup.emorychem.science](https://flgroup.emorychem.science) 
-
-### More Information
-
-We are passionate theoretical and computational chemists. On this site, we post tutorials about the basics of theoretical/ computational chemistry. We hope these materials will be useful for beginners in computational chemistry and seasoned researchers in related fields.
-
-### Visitor map of this site (before July 1, 2023)
-
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/6b27c817-c00b-41ec-9d48-05a47a6e2360/page/R3GUC" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-### Visitor map of this site (after July 1, 2023)
-
-<iframe width="600" height="400" src="https://lookerstudio.google.com/embed/reporting/cb8a36af-8462-406a-9eda-2ecea77f8e50/page/R3GUC" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
-[comment]: <### Contact me>
-
-[comment]: <[email@domain.com](mailto:email@domain.com)>
+This is a tutorial website for those interested in Machine Learning, teaching how to code an algorithm that classifies cancerous molecules. Many different machine learning models and libraries that are used in this algorithm can be applied elsewhere.

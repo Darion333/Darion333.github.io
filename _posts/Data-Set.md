@@ -21,13 +21,19 @@ Additionally, We will use external libraries such as PubChemPy and RDKit. These 
 
 ### Setting up the Data set
 
-For our purposes, we will be using a set of PAH molecules downloadable from this link: https://www.researchgate.net/publication/234024134_PAHtar
-
-Opening up these text files, the list should look something like this:
+For our purposes, we will be using a this set of PAH molecules 
 
 [PAH.tar.gz](https://github.com/user-attachments/files/17249526/PAH.tar.gz)
 
+In the file there should be 82 different chemical compounds within the train set such as 
 
+![image](https://github.com/user-attachments/assets/9107b67e-1246-4779-8369-82a3a22395e2)
+
+#
+#
+#and 10 chemical compounds within the test set 
+
+![image](https://github.com/user-attachments/assets/a9deb5ee-d6ee-459a-b967-082469919ea5)
 
 
 

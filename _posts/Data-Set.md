@@ -17,8 +17,15 @@ Chemoinformatics is the scientific field that studies or predicts a molecule’s
 
 To read more on Cheminformatics, this paper is a usefule resource: https://link.springer.com/chapter/10.1007/978-3-642-20844-7_12 
 
+Additionally, We will use external libraries such as PubChemPy and RDKit. These tools will first represent the molecular structures as SMILES (Simplified Molecular Input Line Entry System) strings. The SMILES strings will then be converted into Morgan fingerprints, an array format that represents a molecule's structure in binary. This conversion is critical, as the molecular names stored as strings are insufficient for computational processing.
 
+### Setting up the Data set
 
+For our purposes, we will be using a set of PAH molecules downloadable from this link: https://www.researchgate.net/publication/234024134_PAHtar
+
+Opening up these text files, the list should look something like this:
+
+[PAH.tar.gz](https://github.com/user-attachments/files/17249526/PAH.tar.gz)
 
 
 

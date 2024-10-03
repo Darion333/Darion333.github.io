@@ -31,7 +31,7 @@ In the file there should be 82 different chemical compounds within the train set
 
 #
 #
-#and 10 chemical compounds within the test set 
+and 10 chemical compounds within the test set 
 
 ![image](https://github.com/user-attachments/assets/a9deb5ee-d6ee-459a-b967-082469919ea5)
 

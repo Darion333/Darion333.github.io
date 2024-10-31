@@ -33,12 +33,12 @@ This is a Classification Task
 In our case, distinguishing between cancerous and non-cancerous PAH molecules is a classification task. The model learns to assign a molecule to one of these two categories based on its features.
 
 ## Commonly Used Classification Algorithms
-Logistic Regression: This algorithm models the probability that an input belongs to a particular category. It uses a logistic function to squeeze predicted values between 0 and 1, making it effective for binary classification problems. To learn more, visit Logistic Regression - Scikit-Learn.
+Logistic Regression: This algorithm models the probability that an input belongs to a particular category. It uses a logistic function to squeeze predicted values between 0 and 1, making it effective for binary classification problems. To learn more, visit Logistic Regression - Scikit-Learn:https://scikit-learn.org/1.5/modules/generated/sklearn.linear_model.LogisticRegression.html
 
-Random Forest: This is an ensemble method that builds multiple decision trees during training and combines their outputs for improved accuracy and robustness. It reduces overfitting and handles large datasets efficiently. More details can be found here: Random Forest - Scikit-Learn.
+Random Forest: This is an ensemble method that builds multiple decision trees during training and combines their outputs for improved accuracy and robustness. It reduces overfitting and handles large datasets efficiently. More details can be found here: Random Forest - Scikit-Learn:https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
 
-Support Vector Machine (SVM): SVMs classify data by finding the optimal hyperplane that separates different classes with the largest margin. It’s particularly effective for high-dimensional spaces. Learn more at Support Vector Machines - Scikit-Learn.
+Support Vector Machine (SVM): SVMs classify data by finding the optimal hyperplane that separates different classes with the largest margin. It’s particularly effective for high-dimensional spaces. Learn more at Support Vector Machines - Scikit-Learn:https://scikit-learn.org/1.5/modules/svm.html 
 
 
 These algorithms are widely used in classification tasks and can be explored further through these resources.

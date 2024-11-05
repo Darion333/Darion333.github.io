@@ -85,9 +85,42 @@ html {
 }
 
 body {
-	background: $white;
+  background-color: #f4f8ff; /* Light background color */
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  overflow-x: hidden; /* Hide horizontal overflow if necessary */
+  position: relative;
+}
+
+/* Chemistry and Machine Learning Themed Floating Elements */
+.chem-element, .ml-element {
+  position: fixed;
+  border-radius: 50%;
+  opacity: 0.2;
+  animation: float 10s infinite ease-in-out;
+  background-color: #007BFF;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chem-element {
+  width: 80px;
+  height: 80px;
+  top: 10%;
+  left: 5%;
+}
+
+.ml-element {
+  width: 100px;
+  height: 100px;
+  bottom: 15%;
+  right: 10%;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(20px); }
+  100% { transform: translateY(0); }
 }
 
 .container {

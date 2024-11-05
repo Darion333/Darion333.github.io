@@ -35,7 +35,17 @@ nav a {
 }
 
 
+.header-container {
+  background-color: #007BFF; /* Blue background */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center align all elements */
+  color: white; /* White text for contrast */
+}
 
+.site-name, .site-description, nav {
+  color: white; /* White text for all elements */
+  margin: 0; /* Reset margin for spacing consistency */
+}
 
 
 

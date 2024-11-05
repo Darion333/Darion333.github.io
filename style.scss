@@ -13,18 +13,32 @@
 /* BASE RULES */
 /**************/
 nav a {
+  position: relative;
   margin-left: 20px;
   color: $darkGray;
   text-align: right;
   font-weight: 300;
   letter-spacing: 1px;
   padding: 8px 12px;
-  border: 2px solid #007BFF;
-  border-radius: 5px;
+  border: 2px solid #007BFF; /* Blue border */
+  border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
-  
-  /* Adding box-shadow for a 3D effect */
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+
+  /* Adding underline effect */
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust for space between text and underline */
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    transition: width 0.3s;
+  }
+
+  &:hover::after {
+    width: 100%; /* Expand underline on hover */
+  }
 
   &:hover {
     background-color: #007BFF;
@@ -38,7 +52,6 @@ nav a {
     color: $blue;
   }
 }
-
 
 .header-container {
   background: linear-gradient(135deg, #007BFF, #00C6FF);

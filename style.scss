@@ -40,8 +40,8 @@ nav a {
   padding: 20px;
   text-align: center;
   color: white;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
-  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 6px 223px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+  
 }
 
 .site-name, .site-description, nav {
@@ -322,61 +322,20 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer-container {
-  background: linear-gradient(135deg, #007BFF, #00C6FF); /* Same gradient as the header */
+  background: linear-gradient(135deg, #007BFF, #00C6FF); /* Gradient background */
   padding: 15px;
   text-align: center;
   color: white;
-  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Inverse box shadow for a subtle lift effect */
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
   border-radius: 10px 10px 0 0; /* Rounded top corners */
+  border: none; /* Remove default borders */
 }
 
-.footer-container a {
+.wrapper-footer a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-  padding: 20px 0;
-  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

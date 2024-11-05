@@ -34,15 +34,21 @@ nav a {
   }
 }
 
-.site-name, .site-description {
+.site-name {
   background-color: #007BFF; /* Blue background */
-  color: white; /* White text for contrast */
+  color: white; /* White text for better contrast */
   padding: 10px;
-  border-radius: 5px; /* Rounded corners for a polished look */
-  display: inline-block; /* Keep the width only as wide as the text */
+  border-radius: 5px; /* Rounded corners */
+  display: inline-block; /* Keeps the background close to the text */
 }
 
-
+.site-description {
+  background-color: #007BFF; /* Blue background */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
 
 
 

@@ -12,6 +12,47 @@
 /**************/
 /* BASE RULES */
 /**************/
+nav a {
+  margin-left: 20px;
+  color: $darkGray;
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border: 2px solid #007BFF; /* Blue border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+
+  @include mobile {
+    margin: 0 10px;
+    color: $blue;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 html {
   font-size: 100%;

@@ -19,13 +19,18 @@ nav a {
   font-weight: 300;
   letter-spacing: 1px;
   padding: 8px 12px;
-  border: 2px solid #007BFF; /* Blue border */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  
+  /* Adding box-shadow for a 3D effect */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 
   &:hover {
     background-color: #007BFF;
     color: white;
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
   }
 
   @include mobile {

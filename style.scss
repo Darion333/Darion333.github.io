@@ -36,10 +36,12 @@ nav a {
 
 
 .header-container {
-  background: linear-gradient(135deg, #007BFF, #00C6FF); /* Gradient from blue to a lighter blue */
+  background: linear-gradient(135deg, #007BFF, #00C6FF);
   padding: 20px;
   text-align: center;
   color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+  border-radius: 10px; /* Rounded corners for a softer look */
 }
 
 .site-name, .site-description, nav {
@@ -324,6 +326,53 @@ nav {
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-container {
+  background: linear-gradient(135deg, #007BFF, #00C6FF); /* Same gradient as the header */
+  padding: 15px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Inverse box shadow for a subtle lift effect */
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.footer-container a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   padding: 20px 0;

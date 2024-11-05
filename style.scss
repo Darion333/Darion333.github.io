@@ -58,8 +58,9 @@ nav a {
   padding: 20px;
   text-align: center;
   color: white;
-  box-shadow: 0 6px 23px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
-  border-radius: 0 0 10px 10px; 
+  box-shadow: 0 6px 23px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 10px 10px;
+  overflow: hidden; /* Ensure corners are visible */
 }
 
 .site-name, .site-description, nav {

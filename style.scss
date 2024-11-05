@@ -40,8 +40,8 @@ nav a {
   padding: 20px;
   text-align: center;
   color: white;
-  box-shadow: 0 6px 223px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
-  
+  box-shadow: 0 6px 23px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+  border-radius: 10px 10px 0 0; 
 }
 
 .site-name, .site-description, nav {
@@ -214,7 +214,7 @@ img {
 
 .site-avatar {
   float: center;
-  width: 150px;
+  width: 0px;
   height: 150px;
  margin: center;
 
@@ -326,7 +326,7 @@ nav {
   padding: 15px;
   text-align: center;
   color: white;
-  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
+  box-shadow: 0 -6px 23px rgba(0, 0, 0, 0.5); /* Box shadow */
   border-radius: 10px 10px 0 0; /* Rounded top corners */
   border: none; /* Remove default borders */
 }

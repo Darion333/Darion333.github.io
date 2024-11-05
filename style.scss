@@ -93,7 +93,7 @@ body {
 }
 
 /* Chemistry and Machine Learning Themed Floating Elements */
-.chem-element, .ml-element {
+.site-chemelement, .site-mlelement {
   position: fixed;
   border-radius: 50%;
   opacity: 0.2;
@@ -102,14 +102,14 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.chem-element {
+.site-chemelement {
   width: 80px;
   height: 80px;
   top: 10%;
   left: 5%;
 }
 
-.ml-element {
+.site-mlelement {
   width: 100px;
   height: 100px;
   bottom: 15%;

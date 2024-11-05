@@ -45,6 +45,7 @@ nav a {
 .site-name, .site-description, nav {
   color: white;
   margin: 0;
+	text-align: center;
 }
 
 
@@ -210,10 +211,10 @@ img {
 }
 
 .site-avatar {
-  float: left;
+  float: center;
   width: 150px;
   height: 150px;
-  margin-right: 15px;
+  align-items: center;
 
   @include mobile {
     float: none;

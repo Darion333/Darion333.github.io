@@ -106,7 +106,7 @@ body {
   height: 80px;
   top: 10%;
   left: 5%;
-  background: url("/images/chemistry.png") no-repeat center/contain; /* Use chemistry image */
+  background: url("./images/chemistry.png") no-repeat center/contain;
 }
 
 .mlelement {
@@ -114,7 +114,7 @@ body {
   height: 100px;
   bottom: 15%;
   right: 10%;
-  background: url("/images/machinelearning.png") no-repeat center/contain; /* Use machine learning image */
+  background: url("./images/machinelearning.png") no-repeat center/contain;
 }
 
 /* Floating Animation */

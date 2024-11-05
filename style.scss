@@ -35,6 +35,17 @@ nav a {
 }
 
 
+.header-container {
+  background: linear-gradient(135deg, #007BFF, #00C6FF); /* Gradient from blue to a lighter blue */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.site-name, .site-description, nav {
+  color: white;
+  margin: 0;
+}
 
 
 

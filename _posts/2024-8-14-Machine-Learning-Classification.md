@@ -5,16 +5,18 @@ title: Tutorial 2. Machine Learning Classification
 ---
 
 ### Learning Objectives
--Use Scikit-learn for simple classification tasks
--Use RDKit for molecular representations, such as Morgan Fingerprint
--Use the ROC curve to represent model accuracy
+* Use Scikit-learn for simple classification tasks
+* Use RDKit for molecular representations, such as Morgan Fingerprint
+* Use the ROC curve to represent model accuracy
+  
+### Background
+This tutorial builds on the previous one, where we curated molecular data, preparing it for machine learning (ML) model training. Now, with the data processed and ready, we can use ML techniques to classify molecular structures and predict their properties.
 
-###Background
-Identifying cancerous molecules is crucial in scientific research, especially when these molecules are used in various studies. Polycyclic aromatic hydrocarbons (PAHs) are molecules composed of multiple carbon rings. While some PAH molecules are carcinogenic, others are not, making it necessary to distinguish between them in research settings.
+Machine learning models are computational tools that learn from data to make predictions or classify information without explicit programming for each specific case. In this context, ML models can analyze complex patterns within molecular structures to distinguish between carcinogenic and non-carcinogenic PAHs. By recognizing underlying patterns in the molecular data, these models help researchers make accurate predictions for new, unclassified molecules.
 
-Referring to a fundamental principle in chemistry—that molecules with similar structures exhibit similar properties—we can develop a machine learning model to classify PAH molecules. This model will compare the structures of unknown PAHs with those of molecules that have already been classified, predicting their carcinogenic potential.
+In this tutorial, we’ll focus on a classification model—a type of supervised ML model particularly suited for categorizing data into distinct classes. Here, the model will classify PAHs as either carcinogenic or non-carcinogenic. Classification models are valuable in cheminformatics, enabling researchers to quickly and accurately assess molecular properties for large sets of compounds.
 
-We will use external libraries such as PubChemPy and RDKit. These tools will initially represent the molecular structures as SMILES (Simplified Molecular Input Line Entry System) strings. The SMILES strings will then be converted into Morgan fingerprints, a binary array format that represents a molecule's structure. This conversion is essential, as molecular names stored as strings are insufficient for computational processing.
+We’ll use external libraries, such as PubChemPy and RDKit, to handle the molecular data. These tools will first represent the molecular structures as SMILES (Simplified Molecular Input Line Entry System) strings. The SMILES strings will then be converted into Morgan fingerprints, a binary array format that represents a molecule's structure. This conversion is essential because molecular names alone are insufficient for computational processing. Once converted, these structured data representations can be fed into our ML model to train and make predictions.
 
 ## Code:
 &nbsp;  

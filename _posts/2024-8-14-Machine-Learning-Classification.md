@@ -169,11 +169,11 @@ document.querySelector("#activateButton").addEventListener('click', bootstrapThe
 df_test
 {% endhighlight %}
 </pre>
-* This code block runs the function "df_test", outputting the data from a folder into a table with parameters defined by the previous code blocks, as seen below:
+* This code block runs the function df_test, outputting data from a folder into a table with parameters defined by the previous code blocks, as shown below:
   
 ![image](https://github.com/user-attachments/assets/29aa6c34-9130-4316-925d-41c21857218b)
 
-* This data is from the test set, in which the code will use as a reference while training the other unknown data
+* This data is from the test set, which the code will use as a reference when training on the other unknown data.
 
   &nbsp;
   &nbsp;  
@@ -211,7 +211,7 @@ df_train
 
 ![image](https://github.com/user-attachments/assets/93b00e86-d1e6-421a-a88f-1a746b70c2b1)
 
-* This data is from the train set, in which the code will change and train using the test data as a reference
+* This data is from the training set, which the code will modify and train using the test data as a reference.
 
 
 &nbsp;  
@@ -268,9 +268,9 @@ mydict=mymol.to_dict(properties=['atoms'])
 mydict['atoms']
 {% endhighlight %}
 </pre>
-* This code block uses the external library PubChemPy, which is a way to utilize the world's largest collection of freely accessible chemical information, PubChem
-* The name of each molecule will be found in the PubChem database, and then a SMILES string will be formed based on its molecular structure.
-* The data is turned into a dictionary using the "to_dict" function, resulting in an output of the molecule (in this case napthalene) as a list of its elements and their positions, a partial representation seen below:
+* This code block uses the external library PubChemPy, a tool to access PubChem, the world’s largest collection of freely accessible chemical information.
+* The name of each molecule will be found in the PubChem database, and a SMILES string will then be generated based on its molecular structure.
+* The data is converted into a dictionary using the to_dict function, resulting in an output of the molecule (in this case, naphthalene) as a list of its elements and their positions, a partial representation seen below:
 
   ![image](https://github.com/user-attachments/assets/72262dff-79f7-4cf7-9e8b-e34d205a03d0)
 
@@ -307,7 +307,7 @@ document.querySelector("#activateButton").addEventListener('click', bootstrapThe
 getSMILES(df_train)
 {% endhighlight %}
 </pre>
-* This function converts all the molecules in the training set into SMILES strings
+* This function converts all the molecules in the training set into SMILES strings.
 
 ![image](https://github.com/user-attachments/assets/aed90f93-e0a1-4612-bd4c-31a5b5a64207)
 
@@ -388,7 +388,7 @@ for i in fp:
     print(i)
 {% endhighlight %}
 </pre>
-* This code block utilizes AllChem's Morgan Fingerprint generator to take the structural data processed from the SMILES strings, and denote it as an array of integers
+* This code block utilizes AllChem's Morgan Fingerprint generator to take the structural data processed from the SMILES strings. It then denotes the molecules as an array of integers
 &nbsp;  
 &nbsp;  
 
@@ -443,7 +443,7 @@ print(X_test)
 {% endhighlight %}
 </pre>
 
-* This code block converts the SMILES strings from the test set into an array denoting its Morgan Fingerprint, and also converts its cancerous or uncancerous labels into a binary format
+* This code block converts the SMILES strings from the test set into an array which represents its Morgan Fingerprint. It also converts its cancerous or uncancerous labels into a binary format
 * The output can be seen below:
 
 ![image](https://github.com/user-attachments/assets/bc2ac740-4d0f-493f-9670-3843c31b956d)
@@ -591,7 +591,7 @@ y_test
 
 ![image](https://github.com/user-attachments/assets/6cb39244-23af-4bee-9981-791c8ae58bc4)
 
-* A comparison between the predicted labels and the actual labels shows that the SVM isnt quite fully accurate
+* A comparison between the predicted labels and the actual labels shows that the SVM is not fully accurate
 &nbsp;
 &nbsp;  
 
@@ -627,7 +627,7 @@ svc_disp = RocCurveDisplay.from_estimator(clf, X_test, y_test)
 plt.show()
 {% endhighlight %}
 </pre>
-* This code block will plot the ROC (Receiver operating characteristic) Curve of the previously trained classifier, which is a graphical representation of the classifiers accuracy and performance
+* This code block will plot the ROC (Receiver operating characteristic) Curve of the previously trained classifier. This is a graphical representation of the classifiers accuracy and performance
 
 ![image](https://github.com/user-attachments/assets/293d25ac-d197-41a3-baac-b8525f6d518b)
 

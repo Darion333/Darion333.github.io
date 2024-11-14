@@ -874,7 +874,7 @@ df_0_upsampled
       repo: "matplotlib/ipympl",
       ref: "0.6.1",
       repoProvider: "github",
-    },
+    }, 
   }
 </script>
 <script src="https://unpkg.com/thebe@latest/lib/index.js"></script>

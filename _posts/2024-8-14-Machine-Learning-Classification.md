@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Tutorial 2. rdkit
+title: Tutorial 2. Machine Learning Classification
 ---
 
 ### Learning objectives

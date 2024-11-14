@@ -4,18 +4,17 @@ comments: true
 title: Tutorial 2. Machine Learning Classification
 ---
 
-### Learning objectives
-* Use Scikit-learn to do simple classification tasks
-* Use rdkit for molecular representations such as Morgan Fingerprint
-* Use ROC curve to represent the accuracy of the model
+### Learning Objectives
+-Use Scikit-learn for simple classification tasks
+-Use RDKit for molecular representations, such as Morgan Fingerprint
+-Use the ROC curve to represent model accuracy
 
-## Background
+###Background
+Identifying cancerous molecules is crucial in scientific research, especially when these molecules are used in various studies. Polycyclic aromatic hydrocarbons (PAHs) are molecules composed of multiple carbon rings. While some PAH molecules are carcinogenic, others are not, making it necessary to distinguish between them in research settings.
 
-Identifying cancerous molecules is crucial for scientific research, especially when these molecules are used in various studies. Polycyclic aromatic hydrocarbons (PAHs) are molecules formed by multiple carbon rings. While some PAH molecules are carcinogenic, others are not, making distinguishing between them necessary in research settings.
+Referring to a fundamental principle in chemistry—that molecules with similar structures exhibit similar properties—we can develop a machine learning model to classify PAH molecules. This model will compare the structures of unknown PAHs with those of molecules that have already been classified, predicting their carcinogenic potential.
 
-Referencing a fundamental principle in chemistry, where molecules of similar structures exhibit similar properties, we can develop a machine learning model to classify PAH molecules. This model will compare the structures of unknown PAHs with those of molecules that have already been classified, predicting their carcinogenic potential.
-
-We will use external libraries such as PubChemPy and RDKit. These tools will first represent the molecular structures as SMILES (Simplified Molecular Input Line Entry System) strings. The SMILES strings will then be converted into Morgan fingerprints, an array format that represents a molecule's structure in binary. This conversion is critical, as the molecular names stored as strings are insufficient for computational processing.
+We will use external libraries such as PubChemPy and RDKit. These tools will initially represent the molecular structures as SMILES (Simplified Molecular Input Line Entry System) strings. The SMILES strings will then be converted into Morgan fingerprints, a binary array format that represents a molecule's structure. This conversion is essential, as molecular names stored as strings are insufficient for computational processing.
 
 ## Code:
 &nbsp;  
@@ -96,7 +95,7 @@ plt.rcParams.update({
 plt.rcParams['mathtext.fontset']='stix'
 {% endhighlight %}
 </pre>
-* These code blocks are setting up the basics of what is needed for the model, importing necessary programming libraries and defining parameters for data tables
+* These code blocks set up the basic infrastructure for the model, including importing the necessary programming libraries and defining parameters for the data tables.
 
 &nbsp;  
 &nbsp;  

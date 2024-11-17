@@ -175,7 +175,8 @@ df_test
   
 ![image](https://github.com/user-attachments/assets/29aa6c34-9130-4316-925d-41c21857218b)
 
-* This data is from the test set, which the code will use as a reference when training on the other unknown data.
+* This data is from the test set
+* The testing set consists of data that is not used during training. It acts as a reference to evaluate the model's performance. These molecules have known cancerous or non-cancerous properties, allowing you to measure how accurately the model can make predictions based on the patterns it learned. By keeping this data separate, we prevent the model from simply memorizing the training data, ensuring it can generalize to new, unseen examples.
 
   &nbsp;
   &nbsp;  
@@ -213,7 +214,8 @@ df_train
 
 ![image](https://github.com/user-attachments/assets/93b00e86-d1e6-421a-a88f-1a746b70c2b1)
 
-* This data is from the training set, which the code will modify and train using the test data as a reference.
+* This data is from the training set
+* The training set contains data that the model uses to learn patterns and relationships. In this case, these are molecules with unknown cancerous properties. The model analyzes their structures and attempts to find patterns that correlate with being cancerous or not. The goal is to expose the model to diverse data so it can generalize and make predictions about unseen molecules.
 
 
 &nbsp;  

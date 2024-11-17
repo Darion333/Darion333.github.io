@@ -61,6 +61,9 @@ nav a {
   box-shadow: 0 6px 23px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 10px 10px;
   overflow: hidden; /* Ensure corners are visible */
+
+  position: relative; /* Ensures floating elements are behind the header */
+  z-index: 10; /* Brings the header in front */
 }
 
 .site-name, .site-description, nav {
@@ -96,10 +99,13 @@ body {
 /* Chemistry and Machine Learning Themed Floating Elements */
 .chemelement, .mlelement {
   position: fixed;
-  opacity: 0.8; /* Slightly more visible */
+  opacity: 0.8;
   animation: float 10s infinite ease-in-out;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  z-index: 0; /* Ensure they're behind other elements */
 }
+
+
 
 .chemelement {
   width: 80px;

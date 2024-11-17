@@ -123,13 +123,21 @@ body {
 }
 
 .chemelement.secondary {
-  top: 35%; /* Place another element further down */
-  left: 0;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  top: 35%; /* Fix it to 15% from the top */
+  left: 0; /* Align to the left edge of the page */
+  background: url("./images/chemistry.png") no-repeat center/contain;
+  background-color: transparent;
 }
 
 .mlelement.secondary {
-  bottom: 35%; /* Place another element further up */
-  right: 0;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  bottom: 35%; /* Fix it to 15% from the bottom */
+  right: 0; /* Align to the right edge of the page */
+  background: url("./images/machinelearning.png") no-repeat center/contain;
+  background-color: transparent;
 }
 /* Floating Animation */
 @keyframes float {

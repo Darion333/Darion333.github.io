@@ -97,32 +97,40 @@ body {
 }
 
 /* Chemistry and Machine Learning Themed Floating Elements */
-.chemelement, .mlelement {
-  position: fixed;
-  opacity: 0.8;
-  animation: float 10s infinite ease-in-out;
+.chemelement, .mlelement, .chemelement.secondary, .mlelement.secondary {
+  position: absolute; /* Change to absolute positioning */
+  opacity: 0.8; /* Adjust visibility */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   z-index: 0; /* Ensure they're behind other elements */
 }
 
-
-
 .chemelement {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 5%;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  top: 15%; /* Fix it to 15% from the top */
+  left: 0; /* Align to the left edge of the page */
   background: url("./images/chemistry.png") no-repeat center/contain;
+  background-color: transparent;
 }
 
 .mlelement {
-  width: 100px;
-  height: 100px;
-  bottom: 15%;
-  right: 10%;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  bottom: 15%; /* Fix it to 15% from the bottom */
+  right: 0; /* Align to the right edge of the page */
   background: url("./images/machinelearning.png") no-repeat center/contain;
+  background-color: transparent;
 }
 
+.chemelement.secondary {
+  top: 35%; /* Place another element further down */
+  left: 0;
+}
+
+.mlelement.secondary {
+  bottom: 35%; /* Place another element further up */
+  right: 0;
+}
 /* Floating Animation */
 @keyframes float {
   0% { transform: translateY(0); }

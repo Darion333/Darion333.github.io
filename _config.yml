@@ -11,6 +11,10 @@ description: Below are some interactive tutorials that will explain various nece
 avatar: /images/logo.png
 chemelement: /images/chemistry.png
 mlelement: /images/machinelearning.png
+chemelement2: /images/chemistry.png
+mlelement2: /images/machinelearning.png
+chemelement3: /images/chemistry.png
+mlelement3: /images/machinelearning.png
 #
 # Flags below are optional
 #

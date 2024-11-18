@@ -97,7 +97,7 @@ body {
 }
 
 /* Chemistry and Machine Learning Themed Floating Elements */
-.chemelement, .mlelement {
+.chemelement, .mlelement, .chemelement2, .mlelement2, .chemelement3, .mlelement3, {
   position: fixed;
   opacity: 0.8; /* Slightly more visible */
   animation: float 10s infinite ease-in-out;
@@ -120,7 +120,35 @@ body {
   background: url("./images/machinelearning.png") no-repeat center/contain;
 }
 
+.chemelement2 {
+  width: 80px;
+  height: 80px;
+  top: 10%;
+  left: 5%;
+  background: url("./images/chemistry.png") no-repeat center/contain;
+}
 
+.mlelement2 {
+  width: 100px;
+  height: 100px;
+  bottom: 15%;
+  right: 10%;
+  background: url("./images/machinelearning.png") no-repeat center/contain;
+}.chemelement3 {
+  width: 80px;
+  height: 80px;
+  top: 10%;
+  left: 5%;
+  background: url("./images/chemistry.png") no-repeat center/contain;
+}
+
+.mlelement3 {
+  width: 100px;
+  height: 100px;
+  bottom: 15%;
+  right: 10%;
+  background: url("./images/machinelearning.png") no-repeat center/contain;
+}
 
 /* Floating Animation */
 @keyframes float {

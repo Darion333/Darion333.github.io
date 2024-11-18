@@ -123,21 +123,21 @@ body {
 .chemelement2 {
   width: 80px;
   height: 80px;
-  top: 10%;
-  left: 5%;
+  top: 50%;
+  right: 5%;
   background: url("./images/chemistry.png") no-repeat center/contain;
 }
 
 .mlelement2 {
   width: 100px;
   height: 100px;
-  bottom: 15%;
-  right: 10%;
+  top: 50%;
+  left: 10%;
   background: url("./images/machinelearning.png") no-repeat center/contain;
 }.chemelement3 {
   width: 80px;
   height: 80px;
-  top: 10%;
+  bottom: 10%;
   left: 5%;
   background: url("./images/chemistry.png") no-repeat center/contain;
 }
@@ -145,7 +145,7 @@ body {
 .mlelement3 {
   width: 100px;
   height: 100px;
-  bottom: 15%;
+  top: 15%;
   right: 10%;
   background: url("./images/machinelearning.png") no-repeat center/contain;
 }

@@ -25,7 +25,7 @@ Support Vector Machine (SVM): SVMs classify data by finding the optimal hyperpla
 
 These algorithms are widely used in classification tasks and can be explored further through these resources.
 
-##How to Train a Machine Learning Model
+## How to Train a Machine Learning Model
 Training a machine learning (ML) model requires dividing your data into two essential subsets: the training set and the test set. The training set is used to teach the model, while the test set evaluates its generalization to unseen data. A common and effective split ratio is 80% for training and 20% for testing. For classification tasks, metrics such as accuracy, true positives (TP), false positives (FP), true negatives (TN), and false negatives (FN) offer insights into the model’s performance, with the ROC curve providing a deeper understanding of trade-offs between sensitivity and specificity. Comparing training set performance to test set performance reveals if the model is overfitting or underfitting.
 
 

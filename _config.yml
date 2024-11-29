@@ -6,7 +6,7 @@
 name: Classification Machine Learning for Computational Chemistry
 
 # Short bio or description (displayed in the header)
-description: Below are some interactive tutorials that will explain various necessary tools/algorithms/APIs for you to make your very own machine learning model, including a tutorial for a demonstrative fully functional machine learning model that can classify cancerous PAH molecules. Just click on the tutorial title witht eh most interesting description, and use the home button and about button to navigate.
+description: Below are some interactive tutorials that will explain various necessary tools/algorithms/APIs for you to make your very own machine learning model, including a tutorial for a demonstrative fully functional machine learning model that can classify cancerous PAH molecules. Just click on the tutorial title with the most interesting description, and use the home button and about button to navigate.
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/logo.png
 chemelement: /images/chemistry.png

@@ -404,6 +404,9 @@ nav {
   box-shadow: 0 -6px 23px rgba(0, 0, 0, 0.5); /* Box shadow */
   border-radius: 10px 10px 0 0; /* Rounded top corners */
   border: none; /* Remove default borders */
+  position: relative; /* Ensures floating elements are behind the header */
+  z-index: 10; /* Brings the header in front */
+  bottom: 0%
 }
 
 .wrapper-footer a {

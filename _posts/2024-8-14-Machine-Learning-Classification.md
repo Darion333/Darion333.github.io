@@ -631,7 +631,7 @@ svc_disp = RocCurveDisplay.from_estimator(clf, X_test, y_test)
 plt.show()
 {% endhighlight %}
 </pre>
-* This code block will plot the ROC (Receiver operating characteristic) Curve of the previously trained classifier. This is a graphical representation of the classifiers accuracy and performance
+* This code block will plot the ROC (Receiver operating characteristic) Curve of the previously trained classifier. Evaluating a machine learning model is essential to ensure it performs well on unseen data. Metrics like accuracy are useful but may not tell the full story. The ROC (Receiver Operating Characteristic) curve and its AUC (Area Under the Curve) provide a deeper insight, showing the trade-off between true positive and false positive rates. A significant gap between training and test set performance often signals overfitting, where the model memorizes training data instead of generalizing patterns. To address this, techniques like cross-validation, regularization, or adding more diverse training data can help improve the model's accuracy and reliability for computational chemistry applications.
 
 ![image](https://github.com/user-attachments/assets/293d25ac-d197-41a3-baac-b8525f6d518b)
 

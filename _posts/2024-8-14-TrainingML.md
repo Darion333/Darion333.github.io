@@ -753,8 +753,6 @@ document.querySelector("#activateButton").addEventListener('click', bootstrapThe
 </script>
 
 
-*
-![image](https://github.com/user-attachments/assets/3a89a637-4c25-4c9e-98fe-565e0b0760d1)
 
 
 &nbsp;  

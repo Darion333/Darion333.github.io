@@ -760,6 +760,8 @@ document.querySelector("#activateButton").addEventListener('click', bootstrapThe
 &nbsp;  
 &nbsp;  
 ### Upsampling
+
+* Upsampling in machine learning is a way to balance datasets by increasing the number of samples in a smaller class. This is done by duplicating data, slightly modifying existing examples, or creating new ones. It helps the model treat all classes fairly and avoid bias toward the larger class.
 &nbsp;  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
@@ -793,6 +795,9 @@ df_0 = df_train[df_train['cancerous'] == -1]
 df_1 = df_train[df_train['cancerous'] == 1]
 
 len(df_0), len(df_1)
+df_0_upsampled = resample(df_0,random_state=42,n_samples=50,replace=True)
+len(df_0_upsampled)
+df_0_upsampled
 {% endhighlight %}
 </pre>
 ![image](https://github.com/user-attachments/assets/177b530f-6adf-467a-a635-9f07d6907c9e)
@@ -802,70 +807,8 @@ len(df_0), len(df_1)
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
 
-<script type="text/x-thebe-config">
-  {
-    requestKernel: true,
-    binderOptions: {
-      repo: "matplotlib/ipympl",
-      ref: "0.6.1",
-      repoProvider: "github",
-    },
-  }
-</script>
-<script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
 
-<button id="activateButton" style="width: 120px; height: 40px; font-size: 1.5em;">
-  Activate
-</button>
-<script>
-var bootstrapThebe = function() {
-    thebelab.bootstrap();
-}
-document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
-</script>
-
-<pre data-executable="true" data-language="python">
-{% highlight python %}
-df_0_upsampled = resample(df_0,random_state=42,n_samples=50,replace=True)
-
-len(df_0_upsampled)
-{% endhighlight %}
-</pre>
-![image](https://github.com/user-attachments/assets/958a4f8c-61f4-4e2f-bdee-48bc35bf04d6)
-
-&nbsp;  
-&nbsp;  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-
-<script type="text/x-thebe-config">
-  {
-    requestKernel: true,
-    binderOptions: {
-      repo: "matplotlib/ipympl",
-      ref: "0.6.1",
-      repoProvider: "github",
-    },
-  }
-</script>
-<script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
-
-<button id="activateButton" style="width: 120px; height: 40px; font-size: 1.5em;">
-  Activate
-</button>
-<script>
-var bootstrapThebe = function() {
-    thebelab.bootstrap();
-}
-document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
-</script>
-
-<pre data-executable="true" data-language="python">
-{% highlight python %}
-df_0_upsampled
-{% endhighlight %}
-</pre>
-![image](https://github.com/user-attachments/assets/1ff23392-638a-47a1-a0f3-b22b6d5dcf81)
+https://github.com/user-attachments/assets/1ff23392-638a-47a1-a0f3-b22b6d5dcf81)
 ![image](https://github.com/user-attachments/assets/2cd41a27-0901-4c77-be3e-98b33127db9d)
 ![image](https://github.com/user-attachments/assets/65bb7e04-330c-4d88-bdb9-e2260ab3fab1)
 &nbsp;  

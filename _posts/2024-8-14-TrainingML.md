@@ -455,6 +455,7 @@ def getData(df):
 X_test,y_test = getData(df_test)
 
 print(X_test)
+X_train,y_train = getData(df_train)
 {% endhighlight %}
 </pre>
 
@@ -491,13 +492,7 @@ var bootstrapThebe = function() {
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
 </script>
 
-<pre data-executable="true" data-language="python">
-{% highlight python %}
-X_train,y_train = getData(df_train)
-{% endhighlight %}
-</pre>
 
-&nbsp;  
 &nbsp;  
 ### Train a SVM and get the ROC curve
 &nbsp;  

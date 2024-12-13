@@ -79,14 +79,10 @@ import sklearn.metrics as sklm
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import linear_model
 from sklearn.model_selection import train_test_split
-from functools import partial
-from scipy.stats import pearsonr
 import matplotlib.pyplot as plt
-import pickle
 from matplotlib import rc
 import matplotlib
 import pandas as pd
-from hyperopt import hp, tpe, fmin, Trials
 from rdkit.Chem import AllChem
 import pubchempy as pcp
 from rdkit import Chem
@@ -761,11 +757,7 @@ var bootstrapThebe = function() {
 document.querySelector("#activateButton").addEventListener('click', bootstrapThebe)
 </script>
 
-<pre data-executable="true" data-language="python">
-{% highlight python %}
-y_test
-{% endhighlight %}
-</pre>
+
 *
 ![image](https://github.com/user-attachments/assets/3a89a637-4c25-4c9e-98fe-565e0b0760d1)
 
@@ -920,7 +912,7 @@ clf.predict(X_test)
 </pre>
 ![image](https://github.com/user-attachments/assets/7cdff1f0-2d56-4767-8da3-87503313822d)
 
-*This shows the accuracy when Upsampling is used with Logistic Regression
+* This shows the accuracy when Upsampling is used with Logistic Regression
 &nbsp;  
 
 

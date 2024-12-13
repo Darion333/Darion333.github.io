@@ -800,7 +800,7 @@ len(df_0_upsampled)
 df_0_upsampled
 {% endhighlight %}
 </pre>
-![image](https://github.com/user-attachments/assets/177b530f-6adf-467a-a635-9f07d6907c9e)
+
 
 &nbsp;  
 &nbsp;  
@@ -808,7 +808,7 @@ df_0_upsampled
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
 
 
-https://github.com/user-attachments/assets/1ff23392-638a-47a1-a0f3-b22b6d5dcf81)
+
 ![image](https://github.com/user-attachments/assets/2cd41a27-0901-4c77-be3e-98b33127db9d)
 ![image](https://github.com/user-attachments/assets/65bb7e04-330c-4d88-bdb9-e2260ab3fab1)
 &nbsp;  
@@ -848,9 +848,10 @@ clf_lg = LogisticRegression(random_state=0).fit(X_train_up, y_train_up)
 clf.predict(X_test)
 {% endhighlight %}
 </pre>
+* This code will use Logistic Regression on the Upsampled data, plotting it on an ROC curve to show its accuracy as seen below:
 ![image](https://github.com/user-attachments/assets/7cdff1f0-2d56-4767-8da3-87503313822d)
 
-* This shows the accuracy when Upsampling is used with Logistic Regression
+
 &nbsp;  
 
 
